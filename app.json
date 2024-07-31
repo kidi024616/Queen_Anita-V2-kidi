@@ -1,5 +1,5 @@
 {
-    "name": "Queen_Anita-V2",
+    "name": "ALLOKIDI_TECH",
     "description": "Simple WhatsApp Bot",
     "logo": "https://i.imgur.com/H4qeXwa.jpeg",
     "keywords": ["DeeCeeXxx", "Anita-V2", "Queen_Anita"],
@@ -9,7 +9,7 @@
     "env": {
       "OWNER_NAME": {
         "description": "Name for Bot Owner",
-        "value": "Queen_Anita-V2",
+        "value": "ALLOKIDI_TECH",
         "required": true
       },
   
@@ -39,8 +39,8 @@
       },
       "BOT_NAME": {
         "description": " NAME FOR BOT",
-        "required": false,
-        "value": "Queen_Anita-V2"
+        "required": true,
+        "value": "ALLOKIDI_TECH"
       },
       "TZ": {
         "description": "Put TIME_ZONE according to your location",
@@ -54,7 +54,7 @@
       },
       "WARN_COUNT": {
         "description": " Warn count for users to kick/block when warn limit exceed!",
-        "required": false,
+        "required": true,
         "value": "3"
       },
       "AUTO_SAVE_STATUS": {
@@ -74,12 +74,12 @@
       },
       "WAPRESENCE": {
         "description": "Fill the value: 'unavailable'(for nothing) | 'available'(for alwaysonline) | 'composing'(for typing) | 'recording' | 'paused' ",
-        "required": false,
-        "value": "unavailable"
+        "required": true,
+        "value": "composing"
       },
       "AUTO_READ_STATUS": {
         "description": "Fill the value true if you want bot view your Statuses.",
-        "required": false,
+        "required": true,
         "value": "true"
       },
       "MSGS_IN_LOG": {
@@ -115,13 +115,13 @@
       },
       "PACK_NAME": {
         "description": "Put Sticker Pack_Name.",
-        "value": "Queen_Anita-V2",
-        "required": false
+        "value": "ALLOKIDI",
+        "required": true
       },
       "PACK_AUTHER": {
         "description": "Put Sticker Author_Name.",
-        "value": "A N I T A",
-        "required": false
+        "value": "K I D I",
+        "required": true
       }
     },
     "addons": [{ "plan": "heroku-postgresql:basic" }],
